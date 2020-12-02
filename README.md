@@ -15,6 +15,6 @@ sam build
 
 ## Deploy to AWS
 
-``bash
+```bash
 sam deploy --guided
 ```
