@@ -9,7 +9,8 @@ You can deploy to AWS (API Gateway + Lambda).
 # install dependencies
 pip3 install -r requirements.txt
 
-# this commands invokes ./mecab_api/Makefile via aws-sam-cli
+# this command invokes ./mecab_api/Makefile via aws-sam-cli,
+# that makefile downloads mecab and ipadic.
 sam build
 ```
 
